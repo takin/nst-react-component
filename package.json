@@ -1,6 +1,6 @@
 {
   "name": "mo-react-component",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "React Components",
   "main": "index.js",
   "scripts": {

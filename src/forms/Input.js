@@ -1,16 +1,14 @@
-import React,{Component} from 'react';
+import React, { Component } from "react";
 
+const Input = props => (
+  <div style={props.style}>
+    <input
+      onChange={props.onChange}
+      text={props.text}
+      type={props.type}
+      placeholder={props.placeholder}
+    />
+  </div>
+);
 
-export default class Input extends Component {
-    render() {
-        return(
-            <div style={this.props.style}>
-                <input
-                    onChange={this.props.onChange} 
-                    text={this.props.text} 
-                    type={this.props.type} 
-                    placeholder={this.props.placeholder} />
-            </div>
-        );
-    }
-}
+export default Input;
