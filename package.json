@@ -1,0 +1,25 @@
+{
+  "name": "react-component",
+  "version": "0.0.1",
+  "description": "React Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takin/react-component.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Syamsul Muttaqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takin/react-component/issues"
+  },
+  "homepage": "https://github.com/takin/react-component#readme",
+  "dependencies": {
+    "react": "^16.8.6"
+  }
+}
